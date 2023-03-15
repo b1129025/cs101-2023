@@ -5,7 +5,6 @@ int main() {
     char ch;
     fp_read = fopen("main2.c", "r");
     fp_write = fopen("main2.txt", "w");
-    
     if (fp_write == NULL) {
         printf("Cannot open main2.txt\n");
         return 1;
